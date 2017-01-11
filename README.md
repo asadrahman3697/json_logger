@@ -17,9 +17,18 @@ How to use the code?
   logfile=True (default is False) - to turn on logging to file, the filename, format and levels are in the json file
   disable=True (default is False) - to disable all logging  
 3.  Start using the logger
-  from logger import Logger
-  logger = Logger()
-  logger.info('Start of Program')
-  logger.debug("Some bug check1")
-  logger.warnings("Might be serious one day")
-  logger.critical("Ouch! This is serious")
+
+Code
+-----
+from logger import Logger
+
+logger = Logger()
+
+logger.info('Start of Program')
+
+logger.debug("Some bug check1")
+
+logger.warnings("Might be serious one day")
+
+logger.critical("Ouch! This is serious")
+ 
