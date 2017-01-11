@@ -1,0 +1,20 @@
+2017-01-11 17:44:05,700 - logger_filewriter - INFO	- factorial.py : 7 - Start of Program
+2017-01-11 17:44:05,701 - logger_filewriter - INFO	- factorial.py : 22 - End of program
+2017-01-11 17:46:35,082 - logger_filewriter - INFO	- factorial.py : 7 - Start of Program
+2017-01-11 17:46:35,082 - logger_filewriter - DEBUG	- factorial.py : 10 - Start of factorial(5)
+2017-01-11 17:46:35,083 - logger_filewriter - DEBUG	- factorial.py : 15 - i is 1 , total is 1
+2017-01-11 17:46:35,083 - logger_filewriter - DEBUG	- factorial.py : 15 - i is 2 , total is 2
+2017-01-11 17:46:35,083 - logger_filewriter - DEBUG	- factorial.py : 15 - i is 3 , total is 6
+2017-01-11 17:46:35,084 - logger_filewriter - DEBUG	- factorial.py : 15 - i is 4 , total is 24
+2017-01-11 17:46:35,085 - logger_filewriter - DEBUG	- factorial.py : 15 - i is 5 , total is 120
+2017-01-11 17:46:35,085 - logger_filewriter - DEBUG	- factorial.py : 17 - End of factorial(5)
+2017-01-11 17:46:35,086 - logger_filewriter - INFO	- factorial.py : 22 - End of program
+2017-01-11 17:48:53,791 - logger_filewriter - INFO	- log_test.py : 8 - This is a info message
+2017-01-11 17:48:53,791 - logger_filewriter - DEBUG	- log_test.py : 9 - This is a debug message
+2017-01-11 17:48:53,792 - logger_filewriter - WARNING	- log_test.py : 10 - This is a warning message
+2017-01-11 17:48:53,793 - logger_filewriter - CRITICAL	- log_test.py : 11 - This is a warning message
+2017-01-11 17:51:02,614 - logger_filewriter - INFO	- log_test.py : 8 - This is a info message
+2017-01-11 17:51:02,615 - logger_filewriter - DEBUG	- log_test.py : 9 - This is a debug message
+2017-01-11 17:51:02,616 - logger_filewriter - WARNING	- log_test.py : 10 - This is a warning message
+2017-01-11 17:51:02,616 - logger_filewriter - ERROR	- log_test.py : 11 - This is a warning message
+2017-01-11 17:51:02,617 - logger_filewriter - CRITICAL	- log_test.py : 12 - This is a warning message
