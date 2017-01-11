@@ -13,19 +13,14 @@ How does it work?
 How to use the code?
 --------------------
 1. Download the code (logger.py) and the json file(logger.json)
-2. In your code type:
-
-from logger import Logger
-
-# Create the logger 
-# The parameters are 
-# logfile=True (default is False) - to turn on logging to file, the filename, format and levels are in the json file
-# disable=True (default is False) - to disable all logging
-logger = Logger() 
-
-# Start using the logger
-logger.info('Start of Program')
-logger.debug("Some bug check1")
-logger.warnings("Might be serious one day")
-logger.critical("Ouch! This is serious")
-
+2. Import and create the logger:
+  from logger import Logger
+  # The parameters are 
+  # logfile=True (default is False) - to turn on logging to file, the filename, format and levels are in the json file
+  # disable=True (default is False) - to disable all logging
+  logger = Logger()
+3. # Start using the logger
+  logger.info('Start of Program')
+  logger.debug("Some bug check1")
+  logger.warnings("Might be serious one day")
+  logger.critical("Ouch! This is serious")
